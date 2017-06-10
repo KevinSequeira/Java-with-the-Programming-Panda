@@ -15,12 +15,16 @@ The 'if' Statement:
 001) The 'if' statement is simple, which adds to it's beauty and brilliance.
 002) A basic 'if' statement would be written this way:
 
+<code>
+
 if(any particular [set of] condition(s) to be checked for){
 	statement 1;
 	statement 2;
 	....
 	statement n;
 }
+
+</code>
 
 003) Let's note, that the 'if' statement shown above consists of two important
      parts:
