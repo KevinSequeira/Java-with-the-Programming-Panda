@@ -1,6 +1,6 @@
 # Description
 
-You're probably going to want to skip this folder. I have just one thing to say to that: DO NOT SKIP!
+You're probably going to want to skip this folder. I have just one thing to say to that: <b>DO NOT SKIP!</b>
 
 All that you learn in this folder is going to help you in the long run. You cannot go ahead without learning what makes up the basic syntax of Java code.
 
