@@ -34,12 +34,10 @@ if(any particular [set of] condition(s) to be checked for){
 
 005) Let's look at the following program to understand this better:
 
-{
+<code>package ifStatement;</code>
+<code>import java.util.Random;</code>
 
-package ifStatement;
-import java.util.Random;
-
-public class ifStatement {
+<code>public class ifStatement {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -66,7 +64,7 @@ public class ifStatement {
 
 }
 
-}
+}</code>
 
 006) The code shown above provides the following output:
 
