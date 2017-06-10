@@ -1,0 +1,120 @@
+A First Simple Java Program:
+===========================================================================
+
+/*
+	This is a simple Java program.
+	Call this file "Example.java".
+*/
+
+class Example
+{
+	// Your program begins with a call to main().
+	public static void main(String args[])
+	{
+		system.out.println("This is a simple Java program.");
+	}
+}
+
+---------------------------------------------------------------------------
+
+001) For most computer languages, the name that holds the source code to a
+     program is arbitary.
+002) However, in Java, the name given to a source file is very important.
+003) In Java, a source file is officially called a "Compilation Unit", and
+     has ".java" extension.
+
+004) As seen, the name of the class defined by the program is called "Example".
+     This is the same as the filename "Example.java".
+005) In Java, all code must reside inside a class.
+006) The name of the class must match the name of the file in which the code
+     is written.
+007) You should also make sure the capitalization of the names matches.
+008) This is because Java is case-sensitive.
+
+---------------------------------------------------------------------------
+
+A closer look at the above Code:
+---------------------------------------------------------------------------
+
+001) The program begins with the lines:
+
+/*
+	This is a simple Java program.
+	Call this file "Example.java".
+*/
+
+002) This is a comment.
+003) Contents of a comment are ignored by the compiler.
+
+004) Java supports three styles of comments.
+005) The one seen above is a multiline comment. It begins with /* and ends 
+     with */ .
+
+006) The next line of the code is:
+
+class Example
+{
+
+007) The line uses the keyword "class" to declare that a new class is being
+     defined.
+008) "Example" is an identifier, which is the name of the class.
+009) The entire class definition, including all of its members will be
+     between { and } .
+
+010) The next line of the program is another comment:
+
+// Your program begins with a call to main().
+
+011) This is the second type of comment supported by Java.
+012) A single-line comment begins with // and ends at the end of the line.
+
+013) The next line of the code is:
+
+public static void main(String args[])
+{
+
+014) All Java applications begin executing by calling "main()".
+
+015) The "public" keyword is an access specifier.
+016) Access specifiers allow the program to control visibility of class members.
+017) There are three types of access specifiers: public, protected, and
+     private.
+
+018) "public" access specifier allows the members to be accessed by code 
+     outside the class in which it is declared.
+019) "private" works completely opposite to "public". It prevents a member
+     from being accessed by code from outside the class.
+020) "protected" we can look into at a later stage.
+
+021) main() must be declared as public, since it is called by code outside
+     its class.
+
+022) The keyword "static" allows main() to be called without instantiating any
+     keyword for its class. This is important since main() has to be called to
+     start the program, before any objects can be created.
+
+023) The keyword "void" tells the compiler that main() does not return any value.
+
+024) Information can be passed to methods while calling them. This is done by
+     including variables within the parenthesis while calling the method.
+025) In main() there is only one parameter, albeit a complicated one.
+026) "String args[]" declares a parameter named "args", which is an array of
+     instances of the class "String".
+027) In this case, args[] receives any command-line arguments present when the
+     the program is executed.
+
+028) The next line outputs the value of the variable "num", preceeded by the 
+     string: "This is num: ".
+029) In this statement, the "+" causes the value of "num" to be appended to
+     the string, and the following string is output: "This is num: 100"
+030) Using the "+" operator, you can string together as many items as you want
+     within the println() statement.
+
+031) We see two kinds of print statements:
+
+System.out.println(), and
+System.out.print()
+
+032) Here, the println() statement causes the printed string to be followed by
+     a new line.
+033) Whereas, the print() statement doesn't add a new line.

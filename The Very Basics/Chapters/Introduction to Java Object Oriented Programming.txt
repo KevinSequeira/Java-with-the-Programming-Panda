@@ -1,0 +1,54 @@
+Object Oriented Programming:
+===========================================================================
+
+Two Paradigms of Coding:
+---------------------------------------------------------------------------
+
+001) Programs consist of two elements : Code, and Data.
+002) Code speaks of "what is happening."
+003) Data speaks of "who is being affected."
+
+004) PROCESS-ORIENTED Model of programming (POP) characterizes a program as
+     a series of linear steps.
+005) Procedural languages such as 'C' employ this approach, however it gets
+     problematic as the complexity and size of the code increases.
+
+006) To manage complexity, OBJECT-ORIENTED Model of programming (OOP) was
+     introduced.
+007) OOP organizes code / the program around data, alongwith a set of well
+     defined interfaces to that data.
+008) OOP can be characterized as "data controlling access to code."
+
+---------------------------------------------------------------------------
+
+Abstraction:
+---------------------------------------------------------------------------
+
+001) Abstraction is an essential element of OOP. It helps to manage complexity.
+002) Example of abstraction: Car.
+003) The car is seen as one whole unit, and not different units of individual
+     parts.
+
+004) Abstraction is managed through hierarchical classification.
+005) This allows to layer semantics of complex systems, and breaks them down
+     to more manageable pieces.
+
+006) Hierarchical abstraction is used in Java OOP.
+007) Data from POPs can be transformed into its component objects, each with
+     their own unique behavior.
+008) A sequence of process steps act as collection of messages between these
+     objects.
+009) The objects can be treated as concrete entities that respond to messages
+     telling them what to do.
+
+---------------------------------------------------------------------------
+
+The Three OOP Principles:
+---------------------------------------------------------------------------
+
+001) All OOP languages provide mechanisms that help to implement the object
+     oriented model.
+002) These are encapsulation, inheritance, and polymorphism.
+
+
+
