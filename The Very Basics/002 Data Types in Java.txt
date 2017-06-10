@@ -1,0 +1,130 @@
+Data Types in Java:
+===========================================================================
+
+001) Java is a strongly typed language. Part of Java's robustness and safety
+     comes from this fact.
+002) Every variable has a type, every expression has a type, and every type
+     is strictly defined.
+003) The Java compiler checks all the expressions and parameters to check
+     the types are compatible.
+004) If any errors occur, the compiler won't go ahead before these errors
+     are corrected.
+
+---------------------------------------------------------------------------
+
+The Simple Types:
+---------------------------------------------------------------------------
+
+001) Java defines eight simple (or elemental) types of data:
+
+- byte
+- short
+- int
+- long
+- char
+- float
+- double
+- boolean
+
+002) INTEGERS: These include byte, short, int, long, which are four valued
+               sign numbers
+
+003) FLOATING POINT NUMBERS: These include float and double, which represent
+                             numbers with fractional precision
+
+004) CHARACTERS: This group includes char, which represents symbols in a
+                 character set, like numbers and letters.
+
+005) BOOLEAN: This includes boolean, which is a special type for representing
+              true / false values.
+
+---------------------------------------------------------------------------
+
+INTEGERs:
+---------------------------------------------------------------------------
+
+001) All four integer types - byte, short, int, long - are signed, positive
+     and negative values.
+002) Unlike predecessor languages, in Java, the width of an integer type
+     defines the behaviour it defines for the variables and expressions of
+     that type.
+
+003) The width and range of integer types vary widely as shown below:
+-------------------------------------------------------------------------
+Name  |	Width  | Range							|
+-------------------------------------------------------------------------
+long  |	64     | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
+int   |	32     | -2,147,483,648 to 2,147,483,647			|
+short |	16     | -32,768 to 32,767					|
+byte  |	8      | -128 to 127						|
+-------------------------------------------------------------------------
+
+004) Anytime you have an expression consisting of byte, short, and int var-
+     iables, the entire expression is promoted to int before the calculation
+     is done.
+
+---------------------------------------------------------------------------
+
+FLOATING POINT NUMBERs:
+---------------------------------------------------------------------------
+
+001) Floating point numbers are used as real numbers, or for evaluating 
+     fractional expressions.
+002) Java implements IEEE-754 standard for floating point types and operators.
+
+003) There are two types of floating point numbers - float and double - which
+     represent single and double precision numbers, respectively.
+004) The width and ranges are shown below:
+-------------------------------------------------------------------------
+Name   | Width   | Range						|
+-------------------------------------------------------------------------
+double | 64	 | 4.9e-324 to 1.8e+308					|
+float  | 32	 | 1.4e-045 to 3.4e+038					|
+-------------------------------------------------------------------------
+
+005) All transcendental math functions such as sin(), cos(), and sqrt()
+     return double values.
+006) To maintain accuracy over many iterative calculations, or for manipulating
+     large-valued numbers, double is the main choice.
+
+---------------------------------------------------------------------------
+
+CHARACTERs:
+---------------------------------------------------------------------------
+
+001) The data type used to store characters is "char".
+002) Unlike C/C++ in which the char data type is 8 bits in size, char data
+     type in Java is 16 bits long.
+003) This is because it uses Unicode to represent characters. Unicode is a
+     fully international set of characters that represents letters and
+     symbols found in all languages.
+
+004) The range of a char is 0 to 65,536 bits long.
+
+---------------------------------------------------------------------------
+
+BOOLEANs:
+---------------------------------------------------------------------------
+
+001) Boolean type in Java is for logical values.
+002) It can have only two possible values: TRUE or FALSE.
+
+003) Boolean is also the type required by conditional expressions to govern
+     control statements.
+
+004) When a boolean is output by a println() statement, "true" or "false"
+     is displayed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+     

@@ -1,0 +1,90 @@
+Variables:
+===========================================================================
+
+001) A variable is a basic unit of storage in a Java program.
+
+
+Declaring a Variable:
+---------------------------------------------------------------------------
+
+001) In Java all variables must be declared before they can be used
+002) The basic form of variable declaration is:
+
+type identifier [= value] [, identifier [= value]];
+
+003) Few examples:
+
+int a, b, c;		// Declares three integer variables
+int d = 3, e, f = 5;	// Declares three more integers, initializes e and f.
+
+byte z = 22;
+double pi = 3.12159;
+char x = 'x';
+
+---------------------------------------------------------------------------
+
+Dynamic Initialization:
+---------------------------------------------------------------------------
+
+001) Java requires variables to be dynamically initialized, using any
+     expression valid at the time the variable is declared.
+002) For example, look at the program below:
+
+class dynamicInitialization{
+
+	public static void main(String args[]){
+
+		double a = 3.0, b = 4.0;
+
+		// c is dynamically initialized
+		double c = Math.sqrt(a*a + b*b);
+
+		System.out.println("Hypotenuse is: " + c);
+
+	}
+
+}
+
+003) Here, we can see that the variable "c" is dynamically initialized as 
+     the hypotenuse of the traingle.
+
+---------------------------------------------------------------------------
+
+The Scope and Lifetime of Variables:
+---------------------------------------------------------------------------
+
+001) Java allows variables to be declared within any block.
+002) A block defines a scope.
+003) Each time we create a new block, a new scope is created.
+
+004) In Java the two major scopes are the one defined by a class, and the
+     other defined by a method.
+
+005) The scope defined by a method begins with its opening curly brace.
+006) However if the method has parameters, they too are included within the
+     method's scope.
+
+007) As a general rule, variables declared inside the scope are not visible
+     or accessible by any code declared outside the scope.
+008) When declaring a variable within a scope, you localize the variable and
+     and protect it from unauthorized modification.
+
+009) Scopes can also be nested.
+010) Objects declared in the outer scope is visible within the inner scope.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
